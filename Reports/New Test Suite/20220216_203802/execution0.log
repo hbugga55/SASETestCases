@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885613</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885627</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Administrator - 10.113.1.224</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Administrator - 10.113.1.224</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885628</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows Server 2016 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows Server 2016 64bit</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885629</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.113.1.224</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.113.1.224</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885630</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885824</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CreateAUser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CreateAUser</property>
+  <property name="description">This test will create a vpn user on SASE and save</property>
+  <property name="id">Test Cases/CreateAUser</property>
+  <property name="source">C:\\Users\\Administrator\\Katalon Studio\\SASETestCases\\Test Cases\\CreateAUser.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:05</date>
+  <millis>1645043885938</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) stagingURL = https://portal.stage.fortisase.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886306</millis>
+  <sequence>9</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CreateAUser FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 20: unable to resolve class ChromeOptions \n @ line 20, column 11.\r\n   options = new ChromeOptions();\r\n             ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities \n @ line 22, column 21.\r\n   DesiredCapabilities capabilities = new DesiredCapabilities();\r\n                       ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities \n @ line 22, column 36.\r\n   DesiredCapabilities capabilities = new DesiredCapabilities();\r\n                                      ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver \n @ line 24, column 14.\r\n   ChromeDriver driver = new ChromeDriver(capabilities);\r\n                ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver \n @ line 24, column 23.\r\n   ChromeDriver driver = new ChromeDriver(capabilities);\r\n                         ^\r\n\r\n5 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1645043882973.run(TempTestSuite1645043882973.groovy:36)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 20: unable to resolve class ChromeOptions 
+ @ line 20, column 11.
+   options = new ChromeOptions();
+             ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities 
+ @ line 22, column 21.
+   DesiredCapabilities capabilities = new DesiredCapabilities();
+                       ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities 
+ @ line 22, column 36.
+   DesiredCapabilities capabilities = new DesiredCapabilities();
+                                      ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver 
+ @ line 24, column 14.
+   ChromeDriver driver = new ChromeDriver(capabilities);
+                ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver 
+ @ line 24, column 23.
+   ChromeDriver driver = new ChromeDriver(capabilities);
+                         ^
+
+5 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1645043882973</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886324</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CreateAUser</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886337</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CreateAUser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CreateAUser</property>
+  <property name="description">This test will create a vpn user on SASE and save</property>
+  <property name="id">Test Cases/CreateAUser</property>
+  <property name="source">C:\\Users\\Administrator\\Katalon Studio\\SASETestCases\\Test Cases\\CreateAUser.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886355</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) stagingURL = https://portal.stage.fortisase.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886648</millis>
+  <sequence>15</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CreateAUser FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 20: unable to resolve class ChromeOptions \n @ line 20, column 11.\r\n   options = new ChromeOptions();\r\n             ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities \n @ line 22, column 21.\r\n   DesiredCapabilities capabilities = new DesiredCapabilities();\r\n                       ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities \n @ line 22, column 36.\r\n   DesiredCapabilities capabilities = new DesiredCapabilities();\r\n                                      ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver \n @ line 24, column 14.\r\n   ChromeDriver driver = new ChromeDriver(capabilities);\r\n                ^\r\n\r\nfile:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver \n @ line 24, column 23.\r\n   ChromeDriver driver = new ChromeDriver(capabilities);\r\n                         ^\r\n\r\n5 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1645043882973.run(TempTestSuite1645043882973.groovy:36)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 20: unable to resolve class ChromeOptions 
+ @ line 20, column 11.
+   options = new ChromeOptions();
+             ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities 
+ @ line 22, column 21.
+   DesiredCapabilities capabilities = new DesiredCapabilities();
+                       ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 22: unable to resolve class DesiredCapabilities 
+ @ line 22, column 36.
+   DesiredCapabilities capabilities = new DesiredCapabilities();
+                                      ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver 
+ @ line 24, column 14.
+   ChromeDriver driver = new ChromeDriver(capabilities);
+                ^
+
+file:/C:/Users/Administrator/Katalon%20Studio/SASETestCases/Scripts/CreateAUser/Script1645038994237.groovy: 24: unable to resolve class ChromeDriver 
+ @ line 24, column 23.
+   ChromeDriver driver = new ChromeDriver(capabilities);
+                         ^
+
+5 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1645043882973</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886652</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CreateAUser</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-02-16T20:38:06</date>
+  <millis>1645043886810</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

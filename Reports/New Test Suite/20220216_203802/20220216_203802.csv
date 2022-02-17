@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2022-02-16 20:38:05,2022-02-16 20:38:06,1.197s,ERROR
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:38:05,2022-02-16 20:38:06,0.500s,ERROR
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:38:06,2022-02-16 20:38:06,0.315s,ERROR

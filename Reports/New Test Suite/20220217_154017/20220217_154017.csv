@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 98.0.4758.102,,2022-02-17 15:40:20,2022-02-17 15:40:43,22.320s,FAILED
+,,,,,,
+Test Cases/CreateAUser,Chrome 98.0.4758.102,This test will create a vpn user on SASE and save,2022-02-17 15:40:21,2022-02-17 15:40:33,12.160s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\Administrator\Downloads\chromedriver_win32\chromedriver.exe"")",Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:21,0.003s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:21,0.028s,PASSED
+"options.setBinary(""C:\Program Files\Google\Chrome\Application\chrome.exe"")",Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:21,0.006s,PASSED
+capabilities = new org.openqa.selenium.remote.DesiredCapabilities(),Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:21,0.008s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:21,0.025s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 98.0.4758.102,,2022-02-17 15:40:21,2022-02-17 15:40:24,2.917s,PASSED
+changeWebDriver(driver),Chrome 98.0.4758.102,,2022-02-17 15:40:24,2022-02-17 15:40:24,0.040s,PASSED
+"navigateToUrl(""https://portal.stage.fortisase.com/"")",Chrome 98.0.4758.102,,2022-02-17 15:40:24,2022-02-17 15:40:26,1.466s,PASSED
+"click(findTestObject(""Object Repository/Page_FortiSASE/span_SSO Login""))",Chrome 98.0.4758.102,,2022-02-17 15:40:26,2022-02-17 15:40:27,1.061s,PASSED
+"setText(findTestObject(""Object Repository/Page_Fortinet SSO/input_Email_username""), ""hbugga"")",Chrome 98.0.4758.102,,2022-02-17 15:40:27,2022-02-17 15:40:27,0.183s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Fortinet SSO/input_Password_password""), ""l+dBxeH9yEGORX6w18GdRA=="")",Chrome 98.0.4758.102,,2022-02-17 15:40:27,2022-02-17 15:40:27,0.188s,PASSED
+"click(findTestObject(""Object Repository/Page_Fortinet SSO/input_Password_submit""))",Chrome 98.0.4758.102,,2022-02-17 15:40:27,2022-02-17 15:40:29,1.691s,PASSED
+"click(findTestObject(""Object Repository/Page_FortiSASE/span_Configuration""))",Chrome 98.0.4758.102,,2022-02-17 15:40:29,2022-02-17 15:40:33,3.893s,FAILED
+,,,,,,
+Test Cases/CreateAUser,Chrome 98.0.4758.102,This test will create a vpn user on SASE and save,2022-02-17 15:40:33,2022-02-17 15:40:42,9.287s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\Administrator\Downloads\chromedriver_win32\chromedriver.exe"")",Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:33,0.001s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:33,0.001s,PASSED
+"options.setBinary(""C:\Program Files\Google\Chrome\Application\chrome.exe"")",Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:33,0.002s,PASSED
+capabilities = new org.openqa.selenium.remote.DesiredCapabilities(),Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:33,0.000s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:33,0.004s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 98.0.4758.102,,2022-02-17 15:40:33,2022-02-17 15:40:34,1.186s,PASSED
+changeWebDriver(driver),Chrome 98.0.4758.102,,2022-02-17 15:40:34,2022-02-17 15:40:34,0.023s,PASSED
+"navigateToUrl(""https://portal.stage.fortisase.com/"")",Chrome 98.0.4758.102,,2022-02-17 15:40:34,2022-02-17 15:40:35,1.258s,PASSED
+"click(findTestObject(""Object Repository/Page_FortiSASE/span_SSO Login""))",Chrome 98.0.4758.102,,2022-02-17 15:40:35,2022-02-17 15:40:36,0.967s,PASSED
+"setText(findTestObject(""Object Repository/Page_Fortinet SSO/input_Email_username""), ""hbugga"")",Chrome 98.0.4758.102,,2022-02-17 15:40:36,2022-02-17 15:40:36,0.120s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Fortinet SSO/input_Password_password""), ""l+dBxeH9yEGORX6w18GdRA=="")",Chrome 98.0.4758.102,,2022-02-17 15:40:36,2022-02-17 15:40:36,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_Fortinet SSO/input_Password_submit""))",Chrome 98.0.4758.102,,2022-02-17 15:40:36,2022-02-17 15:40:38,1.621s,PASSED
+"click(findTestObject(""Object Repository/Page_FortiSASE/span_Configuration""))",Chrome 98.0.4758.102,,2022-02-17 15:40:38,2022-02-17 15:40:42,3.955s,FAILED

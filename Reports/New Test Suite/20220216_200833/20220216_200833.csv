@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2022-02-16 20:08:36,2022-02-16 20:08:40,4.213s,FAILED
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:08:36,2022-02-16 20:08:39,3.240s,FAILED
+"openBrowser("""")",,,2022-02-16 20:08:36,2022-02-16 20:08:39,2.729s,FAILED
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:08:39,2022-02-16 20:08:40,0.663s,FAILED
+"openBrowser("""")",,,2022-02-16 20:08:39,2022-02-16 20:08:40,0.597s,FAILED

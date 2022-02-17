@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2022-02-16 20:39:10,2022-02-16 20:39:11,1.174s,ERROR
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:39:10,2022-02-16 20:39:11,0.755s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.002s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.025s,PASSED
+"options.setBinary(""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"")",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.003s,PASSED
+capabilities = new org.openqa.selenium.remote.DesiredCapabilities(),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.004s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.019s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.052s,ERROR
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:39:11,2022-02-16 20:39:11,0.063s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.000s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.000s,PASSED
+"options.setBinary(""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"")",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.001s,PASSED
+capabilities = new org.openqa.selenium.remote.DesiredCapabilities(),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.001s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),,,2022-02-16 20:39:11,2022-02-16 20:39:11,0.015s,ERROR

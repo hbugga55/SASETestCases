@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2022-02-16 20:36:40,2022-02-16 20:36:44,4.200s,FAILED
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:36:40,2022-02-16 20:36:43,3.234s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",,,2022-02-16 20:36:40,2022-02-16 20:36:40,0.002s,PASSED
+"openBrowser("""")",,,2022-02-16 20:36:40,2022-02-16 20:36:43,2.793s,FAILED
+,,,,,,
+Test Cases/CreateAUser,,This test will create a vpn user on SASE and save,2022-02-16 20:36:43,2022-02-16 20:36:44,0.645s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",,,2022-02-16 20:36:43,2022-02-16 20:36:43,0.001s,PASSED
+"openBrowser("""")",,,2022-02-16 20:36:43,2022-02-16 20:36:44,0.598s,FAILED

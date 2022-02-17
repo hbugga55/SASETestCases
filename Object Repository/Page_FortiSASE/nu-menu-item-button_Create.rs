@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nu-menu-item-button_Create</name>
+   <tag></tag>
+   <elementGuidId>cb76b261-11eb-4a99-afd0-df68a67aeada</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='v22.1.8'])[1]/following::nu-menu-item-button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nu-menu-item-button.secondary.inside-menu-bar.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nu-menu-item-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>secondary inside-menu-bar ng-star-inserted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;nu-theme-cloud-app-light nu-light-theme nu-nav-style-collapsible nu-responsive-medium nu-responsive-medium-only&quot;]/ftnt-app[1]/ftnt-shell[@class=&quot;ng-star-inserted&quot;]/nu-router-outlet[@class=&quot;ng-tns-c81-0 ng-trigger ng-trigger-routeAnimation ng-star-inserted&quot;]/ftnt-user-list[@class=&quot;ng-star-inserted&quot;]/nu-mutable[1]/div[@class=&quot;outer-container&quot;]/div[@class=&quot;menu&quot;]/nu-menu-bar[@class=&quot;ng-star-inserted&quot;]/ftnt-user-list-menu[@class=&quot;nu-menu-bar-component ng-star-inserted&quot;]/div[@class=&quot;left-menu-items&quot;]/div[1]/ftnt-create-button[@class=&quot;ng-star-inserted&quot;]/nu-menu-item-button[@class=&quot;secondary inside-menu-bar ng-star-inserted&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v22.1.8'])[1]/following::nu-menu-item-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analytics'])[1]/following::nu-menu-item-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::nu-menu-item-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nu-menu-item-button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nu-menu-item-button[(text() = 'Create' or . = 'Create')]</value>
+   </webElementXpaths>
+</WebElementEntity>

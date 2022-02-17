@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test will create a vpn user on SASE and save</description>
+   <name>CreateAUser</name>
+   <tag>UserCreation</tag>
+   <comment></comment>
+   <testCaseGuid>ddfe80bf-ebc8-4a3b-bc3a-76cad26a8920</testCaseGuid>
+   <variable>
+      <defaultValue>'https://portal.stage.fortisase.com/'</defaultValue>
+      <description></description>
+      <id>b53ed04f-1c54-4d66-8b30-fcdc768b7026</id>
+      <masked>false</masked>
+      <name>stagingURL</name>
+   </variable>
+</TestCaseEntity>
